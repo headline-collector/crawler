@@ -1,0 +1,23 @@
+{
+  "name": "headline-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/headline-collector/crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/headline-collector/crawler/issues"
+  },
+  "homepage": "https://github.com/headline-collector/crawler#readme",
+  "dependencies": {
+    "axios": "^0.15.0",
+    "mongoose": "^4.6.3"
+  }
+}
