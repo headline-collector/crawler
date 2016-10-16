@@ -10,7 +10,7 @@ import getProductHunt from './getDailyHeadline/getProductHunt';
 import getAwwwards from './getDailyHeadline/getAwwwards';
 import getDouban_movie from './getDailyHeadline/getDouban_movie';
 
-const dateStr = '2016-10-17'
+const dateStr = new Date().toISOString().slice(0, 10)
 
 getGithub(dateStr);
 getHN(dateStr);
